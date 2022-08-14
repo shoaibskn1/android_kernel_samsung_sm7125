@@ -26,7 +26,7 @@ jobs:
       with:
         arch: arm64
         compiler: gcc/9
-        defconfig: a72q_defconfig
+        defconfig: a52q_defconfig
         image: Image.gz-dtb
 
     - name: "Post build to Telegram"
